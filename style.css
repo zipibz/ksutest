@@ -2,11 +2,23 @@
 	background-color: red;
 	/*flex-grow: 2; This will cause the reds to take up most space*/
 }
-.blue {background-color: blue;}
-.green {background-color: green;}
+
+.blue {
+	background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
+
+.black {
+	background-color: black;
+}
 
 /*This is an ID: can be added as a variable to a tag*/
-#pink {background-color: pink;}
+#pink {
+	background-color: pink;
+}
 
 /*@media(min-width: 800px){
 	*{background-color: yellow;}
@@ -32,20 +44,27 @@ ul {
 	font-family: sans-serif; 
 	padding: 0 100px 0 100px;
 	list-style-type: none;
-	justify-content: space-around;
+	/*justify-content: flex-end;*/
 	/*align-content: stretch;*/
 	/*height: 100vh;*/
 }
 
+.social {
+	padding: 0 10px;
+	justify-content: flex-end;
+}
+
 li {
 	color: white;
-	/*flex-grow: 1;*/
-	padding: 20px;
+	flex-grow: 1;
+	padding: 10px;
+	text-align: center;
 }
 
 li:hover {
 	color: black;
 	background-color: white;
+	font-weight: bold;
 }
 
 .grow {
