@@ -1,11 +1,54 @@
-.red {background-color: red;}
-.blue {background-color: blue;}
-
-h2 {color: white;}
-.green {color: #4AFF33;}
-
-#pink {background-color: pink}
-
-@media(min-width: 800px){
-	*{background-color: yellow;}
+.red {
+	background-color: red;
+	/*flex-grow: 2; This will cause the reds to take up most space*/
 }
+.blue {background-color: blue;}
+.green {background-color: green;}
+
+/*This is an ID: can be added as a variable to a tag*/
+#pink {background-color: pink;}
+
+/*@media(min-width: 800px){
+	*{background-color: yellow;}
+}*/
+
+/*body {
+	align-items: center; flex-end, flex-start
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-family: sans-serif; 
+	padding: 0 100px 0 100px;
+	height: 100vh;
+}*/
+
+h2 {
+	color: white;
+	flex-grow: 1;
+}
+
+ul {
+	display: flex;
+	font-family: sans-serif; 
+	padding: 0 100px 0 100px;
+	list-style-type: none;
+	justify-content: space-around;
+	/*align-content: stretch;*/
+	/*height: 100vh;*/
+}
+
+li {
+	color: white;
+	/*flex-grow: 1;*/
+	padding: 20px;
+}
+
+li:hover {
+	color: black;
+	background-color: white;
+}
+
+.grow {
+	flex-grow: 1;
+}
+
